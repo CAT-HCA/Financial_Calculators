@@ -3,12 +3,25 @@
     text-decoration: none;
 }
 
-nav a.active {
-  color: #343a40;
-  text-decoration: none;
+
+/* formatting for footer*/
+main {
+    padding-bottom: 90px;
+}
+footer {
+    height: 90px;
 }
 
+/*Index page jumbotron*/
 
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../img/jumbotron.jpg);
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 2px 2px 2px black;
+}
 
 
 /*changes form field glow color to teal (info color)*/
