@@ -1,0 +1,9 @@
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../img/jumbotron.jpg);
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: white 0.1em 0.1em 0.1em;
+}
