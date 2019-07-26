@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- linking custom site CSS -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+  <!-- linking custom page CSS -->
+  <link rel="stylesheet" type="text/css" href="">
+
+
+  <!--Font Awesome link-->
+  <script src="https://kit.fontawesome.com/d9e1614114.js"></script>
+
+  <!--Title and favicon in tab-->
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  <title>CAT Financial Advising</title>
+</head>
+
+<body>
+  <!--START NAV BAR-->
+  <nav class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-info border-bottom shadow-sm">
+    <h5 class="my-0 mr-md-auto font-weight-normal"><a class="text-white navHome" href="#">CAT Financial
+        Advising</a></h5>
+    <div class="my-2 my-md-0 mr-md-3">
+      <a class="p-2 text-white active" href="mortgage.html">Mortgage Calculator</a>
+      <a class="p-2 text-white inactive" href="depositValue.html">Future Value of Deposit Calculator</a>
+      <a class="p-2 text-white inactive" href="annuity.html">Present Value of Annuity Calculator</a>
+    </div>
+  </nav>
+
+
+
+  <!--END NAV BAR-->
+  <header class="container">
+    <h1 class="text-info">Mortgage Calculator</h1>
+    <p>Input your principal, interest rate, and loan length and discover your monthly payments and total cost</p>
+  </header>
+
+  <main class="container">
+    <form class="row" action="#" method="GET">
+      <div class="container col-6">
+        <div class="form-group col">
+          <label for="inputPrincipal">Principal Amount: </label>
+          <input type="text" class="form-control" id="inputPrincipal" name="inputPrincipal" required="required"
+            autofocus="autofocus" />
+        </div>
+        <div class="form-group col">
+          <label for="inputInterestRate">Interest Rate: </label>
+          <input type="text" class="form-control" id="inputInterestRate" name="inputInterestRate" required="required" />
+        </div>
+        <div class="form-group col">
+          <label for="inputLoanLength">Length of Loan: </label>
+          <input type="text" class="form-control" id="inputLoanLength" name="inputLoanLength" required="required" />
+          <br>
+          <input class="form-group btn btn-info text-white" type="button" id="calcBtn" value="CALCULATE" />
+          <input class="form-group btn btn-info text-white" type="reset" id="resetBtn" value="RESET" />
+        </div>
+      </div>
+      <div class="container col-6">
+          <div class="form-group col">
+            <label for="principalField">Monthly Payments: </label>
+            <input type="text" class="form-control" id="principalField" name="principalField" required="required"/>
+          </div>
+          <div class="form-group col">
+            <label for="loanCostField">Total Loan Cost: </label>
+            <input type="text" class="form-control" id="loanCostField" name="loanCostField" required="required" />
+          </div>
+        </div>
+    </form>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="row fixed-bottom">
+    <div class="container col-12">
+      <hr>
+      <p class="float-right mr-4">Cori Trudeau - HartCode Academy 2019 <br>
+        <span class="font-weight-light">Disclaimer: This is a fictional company and site for educational purposes
+          only.</span></p>
+    </div>
+  </footer>
+
+  <!--END FOOTER-->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="js/mortgage.js"></script>
+</body>
+
+</html>
