@@ -27,33 +27,40 @@
 
 <body>
     <!--START NAV BAR-->
-    <nav class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-info border-bottom shadow-sm">
-        <h5 class="my-0 mr-md-auto font-weight-normal"><a class="text-white navHome" href="#">CAT
+
+    <nav class="navbar navbar-dark navbar-expand-lg p-3 px-md-4 bg-info border-bottom shadow-sm">
+        <span class="navbar-brand mb-0 h1">
+            <a class="text-white navHome" href="#">CAT
                 Financial
-                Advising</a></h5>
-        <div class="my-2 my-md-0 mr-md-3">
-            <a class="p-2 text-white" href="mortgage.html">Mortgage Calculator</a>
-            <a class="p-2 text-white" href="depositValue.html">Future Value of Deposit Calculator</a>
-            <a class="p-2 text-white" href="annuity.html">Present Value of Annuity Calculator</a>
+                Advising</a></span>
+        <button class="navbar-toggler btn-white" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse float-right flex-row-reverse" id="navbarNavAltMarkup">
+            <div class="navbar-nav"></div>
+            <a class="nav-item nav-link p-2 text-white inactive" href="annuity.html">Present Value of Annuity
+                Calculator</a>
+            <a class="nav-item nav-link p-2 text-white inactive" href="depositValue.html">Future Value of Deposit
+                Calculator</a>
+            <a class="nav-item nav-link p-2 text-white inactive" href="mortgage.html">Mortgage Calculator</a>
         </div>
     </nav>
     <!--END NAV BAR-->
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron jumbotron-fluid">
-        <div class="container row">
-            <div class="container text-dark col-6">
-                <h1 class="display-3">CAT Financial Advising</h1>
-                <p>I believe that through knowledge and discipline, financial peace is possible for all of us.<br><span
-                        class="font-italic">- Dave Ramsey</span> </p>
+        <div class="container row ">
+            <div class="col-sm-6 align-items-end">
+                <h1>CAT Financial Advising</h1>
+                <h2>I believe that through knowledge and discipline, financial peace is possible for all of us.<br><span
+                        class="font-italic">- Dave Ramsey</span></h2>
             </div>
         </div>
     </div>
+    <main class="container">
 
-
-    <!--PAGE CONTENT GOES HERE!!-->
-
-
+    </main>
 
     <!-- FOOTER -->
     <footer class="row fixed-bottom">
@@ -61,8 +68,7 @@
             <hr>
             <p class="float-right mr-4">Cori Trudeau - HartCode Academy 2019 <br>
                 <span class="font-weight-light">Disclaimer: This is a fictional company and site for educational
-                    purposes
-                    only.</span></p>
+                    purposes only.</span></p>
         </div>
     </footer>
 
