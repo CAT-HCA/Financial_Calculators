@@ -25,20 +25,29 @@
 </head>
 
 <body>
-  <!--START NAV BAR-->
-  <nav class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-info border-bottom shadow-sm">
-    <h5 class="my-0 mr-md-auto font-weight-normal"><a class="text-white navHome" href="index.html">CAT Financial
-        Advising</a></h5>
-    <div class="my-2 my-md-0 mr-md-3">
-      <a class="p-2 text-white active" href="#">Mortgage Calculator</a>
-      <a class="p-2 text-white inactive" href="depositValue.html">Future Value of Deposit Calculator</a>
-      <a class="p-2 text-white inactive" href="annuity.html">Present Value of Annuity Calculator</a>
-    </div>
-  </nav>
+    <!--START NAV BAR-->
+
+    <nav class="navbar navbar-dark navbar-expand-lg p-3 px-md-4 bg-info border-bottom shadow-sm">
+        <span class="navbar-brand mb-0 h1">
+            <a class="text-white navHome" href="index.html">CAT
+                Financial
+                Advising</a></span>
+        <button class="navbar-toggler btn-white" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse float-right flex-row-reverse" id="navbarNavAltMarkup">
+            <div class="navbar-nav"></div>
+            <a class="nav-item nav-link p-2 text-white inactive" href="annuity.html">Present Value of Annuity
+                Calculator</a>
+            <a class="nav-item nav-link p-2 text-white inactive" href="depositValue.html">Future Value of Deposit
+                Calculator</a>
+            <a class="nav-item nav-link p-2 text-white active" href="#">Mortgage Calculator</a>
+        </div>
+    </nav>
+    <!--END NAV BAR-->
 
 
-
-  <!--END NAV BAR-->
   <header class="container">
     <h1 class="text-info">Mortgage Calculator</h1>
     <p>Input your principal, interest rate, and loan length and discover your monthly payments and total cost</p>

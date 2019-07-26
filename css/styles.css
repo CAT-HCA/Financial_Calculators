@@ -1,6 +1,15 @@
+/*Nav Bar styles*/
 .navHome:hover {
     text-decoration: none;
 }
+
+nav a.active {
+  color: #343a40;
+  text-decoration: none;
+}
+
+
+
 
 /*changes form field glow color to teal (info color)*/
 .form-control:focus {
