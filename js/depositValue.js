@@ -42,7 +42,7 @@ function doValueCalc()
 
 function calculateFutureValue(deposit,interestRate,years)
 {
-    var futureValue = deposit * (1+(interestRate*years));
+    var futureValue = deposit * Math.pow((1+(interestRate)),years);
     return futureValue;
 };
 
