@@ -8,9 +8,9 @@
 */
 window.onload = function () 
 {
-    const principalField = document.getElementById("inputPrincipal");
-    const interestRateField = document.getElementById("inputInterestRate");
-    const loanLengthField = document.getElementById("inputLoanLength");
+    var principalField = document.getElementById("inputPrincipal");
+    var interestRateField = document.getElementById("inputInterestRate");
+    var loanLengthField = document.getElementById("inputLoanLength");
 
     let calcBtn = document.getElementById("calcBtn");
 

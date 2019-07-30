@@ -9,13 +9,12 @@
 */
 window.onload = function () 
 {
-    const payoutField;
-    const interestRateField;
-    const yearField;
+    var payoutField;
+    var interestRateField;
+    var yearField;
     payoutField = document.getElementById("inputPayout");
     interestRateField = document.getElementById("inputInterestRate");
     yearField = document.getElementById("inputYears")
-    presentValueOutputField = document.getElementById("presentValueOutput");
 
     let calcBtn = document.getElementById("calcBtn");
     /*
