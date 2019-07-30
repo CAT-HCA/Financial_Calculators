@@ -8,15 +8,13 @@
 */
 window.onload = function () 
 {
-    const depositField;
-    const interestRateField;
-    const yearField;
+    var depositField;
+    var interestRateField;
+    var yearField;
 
     depositField = document.getElementById("inputDeposit");
     interestRateField = document.getElementById("inputInterestRate");
     yearField = document.getElementById("inputYears")
-    earnedInterestOutputField = document.getElementById("earnedInterestOutput");
-    futureValueOutputField = document.getElementById("futureValueOutput");
 
     let calcBtn = document.getElementById("calcBtn");
 
